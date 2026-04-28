@@ -6,32 +6,32 @@ A production-ready LLM chat application with GitHub OAuth authentication, multi-
 **Architecture Pattern:** Model–Controller–Service (MCS)  
 **Auth Tokens:** JWT (stateless access) + Redis-backed refresh tokens (30-day TTL)
 
-## ⭐ Key Features
+##  Key Features
 
-- ✅ **GitHub OAuth 2.0** authentication with automatic user linking
-- ✅ **JWT Access Tokens** (15-min) + **Redis Refresh Tokens** (30-day TTL)
-- ✅ **Multiple Chat Threads** with persistent history per user
-- ✅ **LLM Integration** with graceful fallback to intelligent mock responses
-- ✅ **Async PostgreSQL** with SQLAlchemy ORM and Alembic migrations
-- ✅ **Complete SPA Frontend** (750+ lines vanilla JavaScript, no framework)
-- ✅ **CORS Support** for seamless frontend-backend communication
-- ✅ **Auto-Refresh Tokens** with automatic token rotation
+-  **GitHub OAuth 2.0** authentication with automatic user linking
+-  **JWT Access Tokens** (15-min) + **Redis Refresh Tokens** (30-day TTL)
+-  **Multiple Chat Threads** with persistent history per user
+-  **LLM Integration** with graceful fallback to intelligent mock responses
+-  **Async PostgreSQL** with SQLAlchemy ORM and Alembic migrations
+-  **Complete SPA Frontend** (750+ lines vanilla JavaScript, no framework)
+-  **CORS Support** for seamless frontend-backend communication
+-  **Auto-Refresh Tokens** with automatic token rotation
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 1. GitHub OAuth Login
 Sign in with GitHub - the OAuth button redirects to GitHub for authorization
-![GitHub OAuth Login](./docs/screenshots/1-github-oauth.png)
+![GitHub OAuth Login](./docs/screenshots/1-github-oauth.jpg)
 
 ### 2. GitHub Authorization
 Authorize the application to access your GitHub profile
-![GitHub Authorization](./docs/screenshots/2-github-auth.png)
+![GitHub Authorization](./docs/screenshots/2-github-auth.jpg)
 
 ### 3. Chat Interface & LLM Responses
 Full chat interface with LLM responses, typing indicators, and message history
-![Chat Interface](./docs/screenshots/3-chat-interface.png)
+![Chat Interface](./docs/screenshots/3-chat-interface.jpg)
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -45,7 +45,7 @@ Full chat interface with LLM responses, typing indicators, and message history
 | **Frontend** | Vanilla JavaScript (HTML5, CSS3, ES6+) |
 | **CORS** | FastAPI CORSMiddleware |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -97,7 +97,7 @@ python3 -m http.server 8080
 http://localhost:8080/index.html
 ```
 
-Click **Sign in with GitHub** and start chatting! 🎉
+Click **Sign in with GitHub** and start chatting! 
 
 ## 🔌 API Endpoints
 
@@ -177,17 +177,17 @@ See **REPORT.md** for:
 - Testing instructions
 - Troubleshooting guide
 
-## 🤝 Contributing
+##  Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
-## 📝 License
+##  License
 
 MIT License - see [LICENSE](LICENSE)
 
 ---
 
-**Ready to chat?** Start with Quick Start above! 🚀
+**Ready to chat?** Start with Quick Start above! 
 
 ## Installation & Setup
 
