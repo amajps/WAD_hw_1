@@ -99,7 +99,7 @@ http://localhost:8080/index.html
 
 Click **Sign in with GitHub** and start chatting! 
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -120,7 +120,7 @@ Click **Sign in with GitHub** and start chatting!
 | `GET` | `/chats/{id}/messages` | Get messages from chat |
 | `POST` | `/chats/{id}/messages` | Send message & get LLM response |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 HW1/
@@ -149,7 +149,7 @@ HW1/
 └── README.md                # This file
 ```
 
-## 🔐 Authentication
+##  Authentication
 
 ### Password-based Login
 1. User registers with username + password (bcrypt hashed)
@@ -166,7 +166,7 @@ HW1/
 7. Tokens saved to localStorage
 8. Automatically redirected to chat interface
 
-## 📖 Full Documentation
+## Full Documentation
 
 See **REPORT.md** for:
 - Detailed architecture breakdown
